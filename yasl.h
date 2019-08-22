@@ -350,3 +350,7 @@ void *YASL_getuserdata(struct YASL_Object *obj);
  * @return the userpointer value of the given YASL_Object, or NULL if the YASL_Object doesn't have type userpointer.
  */
 void *YASL_getuserpointer(struct YASL_Object *obj);
+
+
+// JSON Library
+int YASL_load_json(struct YASL_State *S);
